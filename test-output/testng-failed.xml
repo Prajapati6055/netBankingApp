@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [netBanking]]]">
+  <listeners>
+    <listener class-name="com.netBankingApp.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="netBankingApp Test(failed)(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.netBankingApp.TestCases.TC_LoginDDT_002">
+        <methods>
+          <include name="LoginDDT"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.netBankingApp.TestCases.TC_LoginDDT_002 -->
+    </classes>
+  </test> <!-- netBankingApp Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [netBanking]]] -->

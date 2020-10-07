@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="netBankingApp">
+
+    <listeners>
+        <listener class-name="com.netBankingApp.Utilities.Reporting"/>     
+    </listeners>
+
+    <test name="netBankingApp Test">
+        <parameter name="browser" value="chrome" />
+        <classes>
+             <class name="com.netBankingApp.TestCases.TC_LoginTest_001"/> 
+             <!-- <class name="com.netBankingApp.TestCases.TC_LoginDDT_002"/>   -->
+             <class name="com.netBankingApp.TestCases.TC_AddCustomerTest_003"/>  
+        </classes>
+    </test> 
+    
+ </suite>   
+       
+    

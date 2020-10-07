@@ -1,0 +1,11 @@
+com\netBankingApp\TestCases\BaseClass.class
+com\netBankingApp\TestCases\test.class
+com\netBankingApp\TestCases\TC_LoginDDT_002.class
+com\netBankingApp\TestCases\TC_LoginTest_001.class
+com\netBankingApp\TestCases\demoTestNG_Sequence.class
+com\netBankingApp\PageObjects\LoginPage.class
+com\netBankingApp\Utilities\ReadConfig.class
+com\netBankingApp\Utilities\Reporting.class
+com\netBankingApp\TestCases\TC_AddCustomerTest_003.class
+com\netBankingApp\PageObjects\AddCustomerPage.class
+com\netBankingApp\Utilities\XLUtils.class
