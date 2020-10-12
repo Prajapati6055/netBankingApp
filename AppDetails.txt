@@ -1,0 +1,4 @@
+user name
+pass
+app url 
+co-ordinates
